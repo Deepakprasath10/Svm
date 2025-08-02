@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Spam Classifier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Email Spam Classifier</h2>
+        <form method="POST" action="/predict">
+            <textarea name="feedback" rows="6" placeholder="Paste your email text here..." required></textarea><br>
+            <button type="submit">Classify</button>
+        </form>
+    </div>
+</body>
+</html>
